@@ -1,0 +1,12 @@
+context customer {
+//    @Comment : 'Purchase Order Header'
+    entity custAttr {
+            @Comment : 'Customer ID'
+        key CID : Integer; 
+            Name : String(25);
+            Age : Integer;
+    }
+    technical configuration {
+        column store;
+    };
+};
